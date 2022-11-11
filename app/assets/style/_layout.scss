@@ -1,0 +1,23 @@
+header{
+    background-color:$primary;
+    h1{
+        padding: 20px 30px 20px 0px;
+    }
+    .header-menu{
+        column-gap: 30px;
+    }
+    .header-botton{
+        padding: 10px; 
+        background-color: white;
+        display: inline-block;
+    }
+}
+
+.logo a {
+    background: url(../images/F2E-layout.svg)no-repeat center;
+    display: block;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    background-size: contain;
+    }

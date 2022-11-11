@@ -1,4 +1,16 @@
-
 .banner{
-  font-family:'cubic 11';
+    background-color: black;
+  .banner-middle{
+    padding-top: 113px;
+    font-size: 36px;
+  }
+  .banner-content{
+    padding-top: 113px;
+    padding-bottom: 103px;
+    img{
+        width: 86px;
+        height: 53px;
+        margin-right: 42px;
+    }
+  }
 }
