@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11677,18 +11678,90 @@ header .header-botton {
 
 .banner .banner-middle {
   padding-top: 113px;
-  font-size: 36px;
+  padding-bottom: 375px;
 }
 
 .banner .banner-content {
   padding-top: 113px;
   padding-bottom: 103px;
+  font-size: 42px;
 }
 
 .banner .banner-content img {
   width: 86px;
   height: 53px;
   margin-right: 42px;
+}
+
+.banner .banner-content li:hover {
+  color: #B82A06;
+}
+
+.banner .banner-interactive {
+  font-size: 36px;
+}
+
+.red-rectangle1 {
+  background-color: #B82A06;
+  width: 680px;
+  height: 420px;
+}
+
+.red-rectangle1 .red-web1 {
+  background-image: url(../images/web戰車下底圖.svg);
+  width: 450px;
+  height: 300px;
+}
+
+.red-rectangle1 p {
+  font-size: 36px;
+  -webkit-text-stroke: 1.5px #3C0C00;
+}
+
+.section {
+  background-color: black;
+}
+
+.red-rectangle2 {
+  background-color: #B82A06;
+  width: 680px;
+  height: 420px;
+  margin-top: 243px;
+}
+
+.red-rectangle2 p {
+  font-size: 36px;
+  -webkit-text-stroke: 1.5px #3C0C00;
+}
+
+.red-rectangle2 .red-duke {
+  position: absolute;
+  bottom: 0px;
+  height: 500px;
+}
+
+.red-rectangle3 {
+  background-color: #B82A06;
+  width: 680px;
+  height: 420px;
+  margin-top: 243px;
+}
+
+.red-rectangle3 p {
+  font-size: 36px;
+  -webkit-text-stroke: 1.5px #3C0C00;
+}
+
+.red-rectangle3 .red-tree {
+  height: 480px;
+  position: absolute;
+  bottom: 0;
+}
+
+.red-rectangle3 .red-duke-s {
+  position: absolute;
+  bottom: 0;
+  left: 150px;
 }
 
 /*# sourceMappingURL=all.css.map */
