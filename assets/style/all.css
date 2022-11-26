@@ -11703,14 +11703,14 @@ header .header-botton {
 
 .red-rectangle1 {
   background-color: #B82A06;
-  width: 680px;
-  height: 420px;
+  width: 780px;
+  height: 460px;
 }
 
 .red-rectangle1 .red-web1 {
   background-image: url(../images/web戰車下底圖.svg);
-  width: 450px;
-  height: 300px;
+  width: 520px;
+  height: 350px;
 }
 
 .red-rectangle1 p {
@@ -11720,16 +11720,21 @@ header .header-botton {
 
 .section {
   background-color: black;
+  padding-bottom: 450px;
 }
 
 .red-rectangle2 {
   background-color: #B82A06;
-  width: 680px;
-  height: 420px;
+  width: 780px;
+  height: 460px;
   margin-top: 243px;
+  -webkit-clip-path: inset(-150px 20px 30px -800px);
+          clip-path: inset(-150px 20px 30px -800px);
 }
 
 .red-rectangle2 p {
+  left: -30%;
+  top: 50%;
   font-size: 36px;
   -webkit-text-stroke: 1.5px #3C0C00;
 }
@@ -11740,10 +11745,17 @@ header .header-botton {
   height: 500px;
 }
 
+.red-rectangle2 .dialogue2 {
+  width: 280px;
+  height: 150px;
+  top: -65px;
+  left: -50px;
+}
+
 .red-rectangle3 {
   background-color: #B82A06;
-  width: 680px;
-  height: 420px;
+  width: 780px;
+  height: 460px;
   margin-top: 243px;
 }
 
@@ -11762,6 +11774,54 @@ header .header-botton {
   position: absolute;
   bottom: 0;
   left: 150px;
+}
+
+.section-mountain {
+  position: relative;
+}
+
+.section-mountain .bg-mountain-2 {
+  background-image: url(../images/首頁第三區塊-2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 100;
+}
+
+.section-mountain .bg-mountain-3 {
+  background-image: url(../images/首頁第三區塊-3.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: bottom right;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 100;
+}
+
+.section-mountain .bg-mountain-4 {
+  background-image: url(../images/L4.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom center;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 100;
+}
+
+.section-mountain .bg-mountain-5 {
+  background-image: url(../images/L5.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom center;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 100;
 }
 
 /*# sourceMappingURL=all.css.map */

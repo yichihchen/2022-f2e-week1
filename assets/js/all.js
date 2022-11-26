@@ -8,7 +8,24 @@ gsap.from(".banner-container", {
   duration: 1.5
 }); //banner滑入
 
-/*分鏡動畫*/
+/*阿兵高冒出來-分鏡動畫*/
+
+/*滑鼠滑到才冒出來*/
+
+var tl = gsap.timeline();
+tl.from(".red-duke", {
+  xPercent: 50,
+  yPercent: 50,
+  duration: 1.5
+});
+tl.from(".dialogue2", {
+  xPercent: 20,
+  scale: 0.5,
+  duration: 1
+});
+/*對話框縮小到放大,並從右下角開始變大*/
+
+/*打字動畫*/
 
 gsap.to(".typing1", {
   text: "羨慕別人的酷酷網頁動畫...",
