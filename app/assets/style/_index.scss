@@ -29,13 +29,13 @@
 
 .red-rectangle1 {
   background-color: $primary;
-  width: 680px;
-  height: 420px;
+  width: 780px;
+  height: 460px;
 
   .red-web1 {
     background-image: url(../images/web戰車下底圖.svg);
-    width: 450px;
-    height: 300px;
+    width: 520px;
+    height: 350px;
   }
 
   p {
@@ -46,15 +46,19 @@
 
 .section {
   background-color: black;
+  padding-bottom: 450px; //padding-bottom
 }
 
 .red-rectangle2 {
   background-color: $primary;
-  width: 680px;
-  height: 420px;
+  width: 780px;
+  height: 460px;
   margin-top: 243px;
+  clip-path: inset(-150px 20px 30px -800px); //遮罩
 
   p {
+    left: -30%;
+    top: 50%;
     font-size: 36px;
     -webkit-text-stroke: 1.5px #3C0C00;
   }
@@ -64,12 +68,19 @@
     bottom: 0px;
     height: 500px;
   }
+
+  .dialogue2 {
+    width: 280px;
+    height: 150px;
+    top: -65px;
+    left: -50px;
+  }
 }
 
 .red-rectangle3 {
   background-color: $primary;
-  width: 680px;
-  height: 420px;
+  width: 780px;
+  height: 460px;
   margin-top: 243px;
 
   p {
@@ -87,5 +98,56 @@
     position: absolute;
     bottom: 0;
     left: 150px;
+  }
+}
+
+.section-mountain {
+  //background-color: black;
+
+  position: relative;
+
+  .bg-mountain-2 {
+    background-image: url(../images/首頁第三區塊-2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+
+    position: absolute;
+    height: 100vh; //寬高"都要"下，不然背景出不來，但為何寬一定要下??不能只下高度嗎?
+    width: 100%;
+    top: 100;
+
+  }
+
+  .bg-mountain-3 {
+    background-image: url(../images/首頁第三區塊-3.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: bottom right;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 100;
+  }
+
+  .bg-mountain-4 {
+    background-image: url(../images/L4.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom center;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 100;
+  }
+  .bg-mountain-5 {
+    background-image: url(../images/L5.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom center;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 100;
   }
 }
