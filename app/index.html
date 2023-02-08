@@ -30,12 +30,13 @@ current: index
 </div>
 
 <div class="section">
-    <div class="container-xxl">
+    <!-- container下了d-flex RWD就不會破版 -->
+    <div class="container-xxl d-flex">
         <div class="red-rectangle1 d-flex justify-content-center align-items-center position-relative">
             <div class="red-web1 d-flex justify-content-center align-items-center">
                 <img src="./assets/images/戰車(側) 2.svg" alt="tank-sideview">
             </div>
-            <img class="red-dialogue1 position-absolute" src="./assets/images/對話框上.svg" alt="
+            <img class="red-dialogue1 position-absolute d-flex" src="./assets/images/對話框上.svg" alt="
             dialogue1">
             <p class="text-white position-absolute">
                 <!--打字自動畫開始-->
@@ -52,7 +53,7 @@ current: index
                 <!--下d-flex讓容器擴張寬高，才有辦法讓img底部對齊-->
                 <img src="./assets/images/阿兵哥.svg" alt="duke">
             </div>
-            <img class="dialogue2 position-absolute" src="./assets/images/士兵對話框-完整.svg" alt="
+            <img class="dialogue2 position-absolute " src="./assets/images/士兵對話框-完整.svg" alt="
             dialogue2">
             <p class="text-white position-absolute">
                 <!--打字自動畫開始-->
@@ -63,7 +64,7 @@ current: index
             </p>
         </div>
     </div>
-    <div class="container-xxl">
+    <div class="container-xxl d-flex">
         <div class="red-rectangle3 d-flex justify-content-center align-items-center position-relative">
             <div class="red-tree d-flex">
                 <img src="./assets/images/tree 1.svg" alt="red-tree">
@@ -83,13 +84,22 @@ current: index
 
 </div>
 
-<div class="section-mountain ">
-    <div class="bg-mountain-2 d-flex"></div>
+<div class="section-mountain">
+    <!-- 粉色背景 -->
+    <div class="wrap-mountain-2">
+        <div class="bg-mountain-2"></div>
+    </div>
+
+
     <div class="bg-mountain-3"></div>
-    <div class="bg-mountain-4"></div>
-    <div class="bg-mountain-5"></div>
-    <div class="mountain-soldier"></div>
-    <div class="container-xxl">
+    <div class="wrap-mountain-3"> </div>
+    <div class="wrap-mountain-4">
+        <div class="bg-mountain-4"></div>
+    </div>
+    <div class="wrap-mountain-5">
+        <div class="bg-mountain-5"></div>
+    </div>
+    <div class="container-xxl position-absolute">
         <h2>互動式網頁設計</h2>
     </div>
 </div>

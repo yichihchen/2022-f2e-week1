@@ -3,7 +3,7 @@ gsap.registerPlugin(ScrollTrigger, TextPlugin);
 gsap.from(".banner-container", { y: 1000, duration: 1.5 }); //banner滑入
 
 /*阿兵高冒出來-分鏡動畫*/
-/*滑鼠滑到才冒出來*/
+/*滑鼠滑到才冒出來??還沒處理好*/
 const tl = gsap.timeline();
 tl.from(".red-duke", { xPercent: 50, yPercent: 50, duration: 1.5 });
 tl.from(".dialogue2", {xPercent:20,scale:0.5,duration: 1});/*對話框縮小到放大,並從右下角開始變大*/
@@ -46,3 +46,4 @@ gsap.fromTo(".cursor", 0, {
         repeatDelay: 0.3,
     }
 )
+/*背景變色*/
